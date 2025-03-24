@@ -92,17 +92,17 @@ body {
 }
 
 .nav-link:hover {
-    color:rgb(11 108 251/1);
+    color:rgb(101, 0, 216);
 }
 
 .nav-item.active .nav-link {
-    color:rgb(11 108 251/1);
+    color:rgb(123, 7, 218);
 }
 
 .nav-link.insta {
     font-size: 2rem;
-    color:rgb(11 108 251/1);
-    background: rgb(11 108 251/1);
+    color:rgb(115, 11, 251);
+    background: rgb(75, 4, 241);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -206,74 +206,22 @@ body {
     filter: brightness(65%) !important;
   }
 
-  /* Make the iframe keep an aspect ratio, and
-position it in the middle of its parent wrapper*/
-
   .iframe-wrapper iframe {
     width: 100vw;
     height:67.25vw;
-    /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
     min-height: 100vh;
     min-width: 177.77vh;
-    /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-/* 
-.video-full-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
-    background-color: #0e1322e8;
-    will-change: transform
-}
-
-.video-full-bg__highlight {
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    mix-blend-mode: overlay;
-    background-image: radial-gradient(576px circle at 50% -5%, #fff, transparent);
-    background-repeat: no-repeat;
-    background-position: 50% 0
-} */
-
-/* .video-full-bg__highlight::after,
-.video-full-bg__highlight::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-repeat: no-repeat;
-    background-position: 50% 0
-} */
-
-/* .video-full-bg__highlight::before {
-    background-image: radial-gradient(768px circle at 50% -10%, #fff, transparent)
-}
-
-.video-full-bg__highlight::after {
-    background-image: radial-gradient(992px circle at 50% -15%, #fff, transparent)
-} */
-
 .video-full-bg__clip {
     position: absolute;
     top: 50%;
     left: 50%;
     min-width: 100%;
-    /* background: url('../imagens/background/rumble.jpg'); */
     background-position: center;
     background-size: cover;
     min-height: 100%;
@@ -283,12 +231,9 @@ position it in the middle of its parent wrapper*/
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
       opacity: .7;
-   /* mix-blend-mode: multiply */
 }
 
 .video-full-bg__clip--black-white {
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%) */
     filter: brightness(75%);
 }
 
@@ -300,7 +245,7 @@ position it in the middle of its parent wrapper*/
 }
 
 #eloBurn {
-    color:rgb(11 108 251/1);
+    color:rgb(103, 11, 251);
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
@@ -309,7 +254,7 @@ position it in the middle of its parent wrapper*/
 
 .btn {
     /* background: linear-gradient(to right, #ffc60b, #ff872c); */
-    background: rgb(11 108 251/1);
+    background: rgb(70, 6, 173);
     border-radius: 100px;
     text-align: center;
     padding: 14px 30px;
@@ -323,12 +268,12 @@ position it in the middle of its parent wrapper*/
 }
 
 .button-group.d-flex.align-items-center.justify-content-center.justify-content-md-start .btn {
-    box-shadow: 0 0 2em  rgb(11 108 251/1);
+    box-shadow: 0 0 2em  rgb(95, 11, 251);
 }
 
 .btn:hover {
-    background: rgb(11 108 251/1);
-    box-shadow: 0 0 2em rgb(11 108 251/1);
+    background: rgb(136, 8, 241);
+    box-shadow: 0 0 2em rgb(135, 11, 251);
     transform: scale(1.05)
 }
 
@@ -533,7 +478,7 @@ a:hover {
     position: absolute;
     bottom: 10px;
     left: 30px;
-    background: rgb(11 108 251/1);
+    background: rgb(103, 11, 251);
     border-radius: 100px;
     text-align: center;
     padding: 14px 30px;
@@ -636,7 +581,7 @@ hr {
 }
 
 .color-1 {
-    color:rgb(11 108 251/1);
+    color:rgb(143, 11, 251);
 }
 
 .imgSobrenos {
@@ -682,7 +627,7 @@ hr {
 }
 
 .imgPeople {
-    border: 3px solid rgb(11 108 251/1);
+    border: 3px solid rgb(83, 11, 251);
     border-radius: 50%;
     margin-right: 8rem;
     max-width: 70px
@@ -734,7 +679,7 @@ hr {
 }
 
 .stars {
-    color: rgb(11 108 251/1);
+    color: rgb(251, 227, 11);
 }
 
 .faq_area {
@@ -810,12 +755,6 @@ hr {
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
- 
-
-/* .faq-accordian .card .card-header h6 span {
-    font-size: #ffc60b
-} */
 
 .faq-accordian .card .card-header h6.collapsed {
     color: #fff;
@@ -942,7 +881,7 @@ hr {
 
 .footer-item li a:hover {
     text-decoration: none;
-    color: rgb(11 108 251/1);
+    color: rgb(135, 11, 251);
 }
 
 .footer-copyright a:hover {
@@ -958,7 +897,7 @@ hr {
 #visits-box {
     position: fixed;
     z-index: 1101;
-    background:rgb(11 108 251/1);
+    background:rgb(103, 11, 251);
     padding: 0 15px;
     font-weight: 500;
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, .74);
@@ -1039,50 +978,6 @@ hr {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
-}
-
-@media (max-width:767px) {
-    .header-container {
-        padding-top: 25vh
-    }
-
-    .imgSobrenos {
-        margin-right: 3rem;
-        padding: 2rem
-    }
-
-    .gridHead.title {
-        align-items: center
-    }
-
-    .ptb_150 {
-        padding: 0 0 10px 0
-    }
-
-    .contaienrComents {
-        padding-left: 2.5rem
-    }
-
-    .BoxImgP {
-        margin-left: .8rem
-    }
-
-    .scroll {
-        visibility: hidden
-    }
-
-    #visits-box {
-        top: unset !important;
-        bottom: 0 !important;
-        left: 0 !important;
-        border-radius: 0 10px 0 0 !important;
-        text-align: center;
-        width: 15rem
-    }
-
-    .btn {
-        margin-top: .5rem
-    }
 }
 
 .front-video[_ngcontent-serverApp-c8] .video-poster[_ngcontent-serverApp-c8] {
@@ -1319,7 +1214,7 @@ hr {
 .card-game::after {
     top: -10px;
     left: -9px;
-    background: rgb(11 108 251/1);
+    background: rgb(78, 2, 201);
     z-index: -99;
     content: "";
     width: 50%;
@@ -1348,7 +1243,7 @@ hr {
 .card-game::before {
     bottom: -10px;
     right: -9px;
-    background: rgb(11 108 251/1);
+    background: rgb(78, 2, 201);
     content: "";
     transition: all 0.4s ease-in-out;
     width: 50%;
@@ -1358,16 +1253,16 @@ hr {
 }
 
 .service-description h4 {
-    background: rgb(11 108 251/1);
-    -webkit-background-clip: text;
+    background: rgb(128, 2, 201);
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-weight: bolder;
 }
 
 .card-game .btn-group a {
     color: white !important;
-    background:rgb(11 108 251/1);
-    box-shadow: 0 0 0.5em rgb(11 108 251/1);
+    background:rgb(78, 2, 201);
+    box-shadow: 0 0 0.5em rgb(96, 3, 245);
 }
 
 
@@ -1390,9 +1285,9 @@ hr {
     left:0;
     height: 5px;
     width: 70%;
-    background: rgb(11 108 251/1);
+    background: rgb(123, 11, 251);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0 0 50px 10px rgb(11 108 251/1);
+    box-shadow: 0 0 50px 10px rgb(143, 11, 251);
 }
 
 .divider-line {
@@ -1400,7 +1295,7 @@ hr {
     width: 30%;
     height: 2px;
     border-radius: 2px;
-    background: rgb(11 108 251/1);
+    background: rgb(119, 0, 231);
 }
 
 .passos-body{
@@ -1411,7 +1306,7 @@ hr {
 .passos-body::after{
     content: "";
     position: absolute;
-    background: rgb(11 108 251/1);
+    background: rgb(123, 11, 251);
     top: 0;
     left: 0;
     width: 2px;
@@ -1448,9 +1343,9 @@ hr {
     right:0;
     height: 5px;
     width: 70%;
-    background:rgb(11 108 251/1);
+    background:rgb(123, 11, 251);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0 0 50px 10px rgb(11 108 251/1);
+    box-shadow: 0 0 50px 10px rgb(103, 11, 251);
 }
 
 .cor-laranja{
@@ -1460,33 +1355,6 @@ hr {
 .body-boost{
     text-align: center;
 }
-
-/* .section-boost .col-lg-6.um {
-    display: flex;
-    justify-content: right;
-    padding-right: 9rem;
-}
-
-.section-boost .col-lg-6.dois {
-    padding-left: 5rem;
-}
-
-.section-boost .col-lg-6.tres {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 14rem;
-    padding-left: 5rem;
-}
-
-.section-boost .col-lg-6.quatro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 17rem;
-} */
 
 @keyframes rotateVideoFrame {
     0% {
@@ -1528,20 +1396,9 @@ hr {
         z-index: 0;
     }
 
-    /* .video-full-bg {
-        display: none;
-    } */
-
     .container.dois {
         padding-top: 0;
-    }
-
-/* 
-    .video-full-bg__clip {
-        visibility: hidden
-    } */
-
-   
+    }   
 
     .list-games .col-2 {
 
